@@ -17,10 +17,7 @@ export const actions: ActionTree<RootState, RootState> = {
     let people: Person[] = []
 
     // If you serve the site statically with `nuxt generate`, you can't use HTTP requests for local
-    people = context.isStatic ?
-      localRandomData :
-      await context.app.$axios.$get("./random-data.json")
-
+    people = await context.app.$axios.$get("/server/api/people")
     commit("setPeople", people.slice(0, 10))
   }
 }

@@ -8,7 +8,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "dev-server": "ts-node --project tsconfig.server.json server/index.ts"
+    "dev-server": "nodemon"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,8 @@
     "@nuxt/typescript": "^2.6.3",
     "@types/express": "^4.16.1",
     "@types/node": "^11.13.8",
-    "@types/webpack-env": "^1.13.9"
+    "@types/webpack-env": "^1.13.9",
+    "nodemon": "^1.19.0"
   },
   "dependencies": {
     "@nuxt/config": "^2.6.3",
