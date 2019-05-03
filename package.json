@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nuxt",
+    "test": "jest",
+    "dev": "NUXT_PROXY=true nuxt",
+    "dev-debug": "NUXT_PROXY=true node --inspect-brk=9229 node_modules/nuxt/bin/nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "dev-server": "nodemon"
+    "dev-server": "nodemon",
+    "dev-server-debug": "nodemon --config nodemon.debug.json"
   },
   "keywords": [],
   "author": "",

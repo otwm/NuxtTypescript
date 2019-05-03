@@ -1,6 +1,6 @@
 import NuxtConfiguration from '@nuxt/config'
 
-const isProxy = (process.env.NUXT_PROXY || 'true').toLowerCase() === 'true'
+const isProxy = (process.env.NUXT_PROXY || '').toLowerCase() === 'true'
 
 const basic: NuxtConfiguration = {
   env: {},
@@ -41,7 +41,7 @@ const middleware: NuxtConfiguration = {
     baseURL: 'http://127.0.0.1:3000', proxy: false
   },
   serverMiddleware: [
-    {path: '/server', handler: '~/server/index'}
+    {path: '/server', handler: '~/server/app'}
   ]
 }
 

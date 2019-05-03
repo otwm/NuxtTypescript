@@ -29,7 +29,6 @@ export default class extends Vue {
   @State people: Person
 
   async asyncData() {
-    console.log('123')
   }
 }
 </script>
