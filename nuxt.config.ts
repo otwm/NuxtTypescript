@@ -25,7 +25,7 @@ const basic: NuxtConfiguration = {
 }
 
 const proxy: NuxtConfiguration = {
-  modules: [ ...basic.modules, '@nuxtjs/proxy'],
+  modules: [ ...<Array<string>>basic.modules, '@nuxtjs/proxy'],
   axios: { ...basic.axios, proxy: true},
   proxy: {
     '/server': {
