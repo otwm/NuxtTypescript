@@ -18,13 +18,9 @@
     "noEmit": true,
     "baseUrl": ".",
     "resolveJsonModule": true,
+    "strictFunctionTypes": false,
     "paths": {
       "~/*": ["./*"]
-    },
-    "types": [
-      "@nuxt/vue-app",
-      "@types/node",
-      "@types/webpack-env"
-    ]
+    }
   }
 }
