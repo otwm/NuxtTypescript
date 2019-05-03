@@ -11,8 +11,4 @@ app.get('/api/people', (_, res) => {
   res.json(People)
 })
 
-app.listen(3001, () => {
-  console.log('test')
-})
-
 export default app
