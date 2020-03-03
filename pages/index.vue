@@ -9,6 +9,7 @@
         :person="person"
       ></Card>
     </div>
+    <a href="/index2">go</a>
   </section>
 </template>
 

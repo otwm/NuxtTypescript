@@ -1,6 +1,7 @@
 <template>
   <section>
     ok ! 2
+    <a href="/index3">go</a>
   </section>
 </template>
 

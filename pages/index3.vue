@@ -1,6 +1,7 @@
 <template>
   <section>
     ok ! 3
+    <a href="/">go</a>
   </section>
 </template>
 
