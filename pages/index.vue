@@ -2,6 +2,7 @@
   <section>
     <h1 class="header">Nuxt TypeScript Starter</h1>
     <div class="cards">
+      test
       <Card
         v-for="person in people"
         :key="person.id"

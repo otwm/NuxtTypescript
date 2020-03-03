@@ -12,10 +12,14 @@ export default {
     ]
   },
   loading: { color: "#3B8070" },
-  css: ["~/assets/css/main.css"],
+  css: [ "~/assets/css/main.css" ],
   build: {},
   modules: [
     "@nuxtjs/axios",
   ],
-  axios: {}
+  axios: {},
+  serverMiddleware: [
+    { path: '/admin-server', handler: '~/app1' }
+  ]
 }
+
