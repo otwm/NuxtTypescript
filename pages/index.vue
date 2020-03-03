@@ -2,13 +2,17 @@
   <section>
     <h1 class="header">Nuxt TypeScript Starter</h1>
     <div class="cards">
-      test
+      testvbvcbvcbvc
       <Card
         v-for="person in people"
         :key="person.id"
         :person="person"
       ></Card>
     </div>
+    <a href="/index2">go</a>
+    <a href="/index2">go</a>
+    <a href="/index2">go</a>
+    <a href="/index2">go</a>
     <a href="/index2">go</a>
   </section>
 </template>

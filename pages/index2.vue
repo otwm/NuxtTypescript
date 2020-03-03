@@ -2,6 +2,14 @@
   <section>
     ok ! 2545
     <a href="/index3">go</a>
+    ok ! 2545
+    <a href="/index3">go</a>
+    ok ! 2545
+    <a href="/index3">go</a>
+    ok ! 2545
+    <a href="/index3">go</a>
+    ok ! 2545
+    <a href="/index3">go</a>
   </section>
 </template>
 
