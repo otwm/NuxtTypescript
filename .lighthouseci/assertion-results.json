@@ -1,0 +1,898 @@
+[
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.23,
+    "values": [
+      0.22,
+      0.23,
+      0.23
+    ],
+    "operator": ">=",
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.45,
+    "values": [
+      0.38,
+      0.43,
+      0.45
+    ],
+    "operator": ">=",
+    "auditId": "max-potential-fid",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Max Potential First Input Delay",
+    "auditDocumentationLink": "https://developers.google.com/web/updates/2018/05/first-input-delay"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "load-fast-enough-for-pwa",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Page load is not fast enough on mobile networks",
+    "auditDocumentationLink": "https://web.dev/load-fast-enough-for-pwa"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 8,
+    "values": [
+      8,
+      8,
+      8
+    ],
+    "operator": "<=",
+    "auditId": "offscreen-images",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Defer offscreen images",
+    "auditDocumentationLink": "https://web.dev/offscreen-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1,
+      1,
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-css",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Minify CSS",
+    "auditDocumentationLink": "https://web.dev/unminified-css"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4,
+      4,
+      4
+    ],
+    "operator": "<=",
+    "auditId": "unminified-javascript",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Minify JavaScript",
+    "auditDocumentationLink": "https://web.dev/unminified-javascript"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1,
+      1,
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unused-css-rules",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Remove unused CSS",
+    "auditDocumentationLink": "https://web.dev/unused-css-rules"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 7,
+    "values": [
+      7,
+      7,
+      7
+    ],
+    "operator": "<=",
+    "auditId": "uses-text-compression",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Enable text compression",
+    "auditDocumentationLink": "https://web.dev/uses-text-compression"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 10,
+    "values": [
+      10,
+      10,
+      10
+    ],
+    "operator": "<=",
+    "auditId": "uses-webp-images",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Serve images in next-gen formats",
+    "auditDocumentationLink": "https://web.dev/uses-webp-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 6,
+    "values": [
+      6,
+      6,
+      6
+    ],
+    "operator": "<=",
+    "auditId": "uses-long-cache-ttl",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Serve static assets with an efficient cache policy",
+    "auditDocumentationLink": "https://web.dev/uses-long-cache-ttl"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "redirects-http",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Does not redirect HTTP traffic to HTTPS",
+    "auditDocumentationLink": "https://web.dev/redirects-http"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "uses-http2",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Does not use HTTP/2 for all of its resources",
+    "auditDocumentationLink": "https://web.dev/uses-http2"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "html-has-lang",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "`<html>` element does not have a `[lang]` attribute",
+    "auditDocumentationLink": "https://web.dev/html-has-lang/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "image-alt",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Image elements do not have `[alt]` attributes",
+    "auditDocumentationLink": "https://web.dev/image-alt/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "installable-manifest",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Web app manifest does not meet the installability requirements",
+    "auditDocumentationLink": "https://web.dev/installable-manifest"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "link-text",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Links do not have descriptive text",
+    "auditDocumentationLink": "https://web.dev/link-text"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "offline-start-url",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "`start_url` does not respond with a 200 when offline",
+    "auditDocumentationLink": "https://web.dev/offline-start-url"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "service-worker",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Does not register a service worker that controls page and `start_url`",
+    "auditDocumentationLink": "https://web.dev/service-worker"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "splash-screen",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Is not configured for a custom splash screen",
+    "auditDocumentationLink": "https://web.dev/splash-screen"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "themed-omnibox",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Does not set a theme color for the address bar.",
+    "auditDocumentationLink": "https://web.dev/themed-omnibox"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.99,
+    "values": [
+      0.99,
+      0.99,
+      0.99
+    ],
+    "operator": ">=",
+    "auditId": "total-byte-weight",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Avoids enormous network payloads",
+    "auditDocumentationLink": "https://web.dev/total-byte-weight"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "works-offline",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Current page does not respond with a 200 when offline",
+    "auditDocumentationLink": "https://web.dev/works-offline"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.3,
+    "values": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "operator": ">=",
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1,
+      1,
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-css",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Minify CSS",
+    "auditDocumentationLink": "https://web.dev/unminified-css"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4,
+      4,
+      4
+    ],
+    "operator": "<=",
+    "auditId": "unminified-javascript",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Minify JavaScript",
+    "auditDocumentationLink": "https://web.dev/unminified-javascript"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1,
+      1,
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unused-css-rules",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Remove unused CSS",
+    "auditDocumentationLink": "https://web.dev/unused-css-rules"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 7,
+    "values": [
+      7,
+      7,
+      7
+    ],
+    "operator": "<=",
+    "auditId": "uses-text-compression",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Enable text compression",
+    "auditDocumentationLink": "https://web.dev/uses-text-compression"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 6,
+    "values": [
+      6,
+      6,
+      6
+    ],
+    "operator": "<=",
+    "auditId": "uses-long-cache-ttl",
+    "level": "warn",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Serve static assets with an efficient cache policy",
+    "auditDocumentationLink": "https://web.dev/uses-long-cache-ttl"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "redirects-http",
+    "level": "warn",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Does not redirect HTTP traffic to HTTPS",
+    "auditDocumentationLink": "https://web.dev/redirects-http"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "uses-http2",
+    "level": "warn",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Does not use HTTP/2 for all of its resources",
+    "auditDocumentationLink": "https://web.dev/uses-http2"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "html-has-lang",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "`<html>` element does not have a `[lang]` attribute",
+    "auditDocumentationLink": "https://web.dev/html-has-lang/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "installable-manifest",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Web app manifest does not meet the installability requirements",
+    "auditDocumentationLink": "https://web.dev/installable-manifest"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "link-text",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Links do not have descriptive text",
+    "auditDocumentationLink": "https://web.dev/link-text"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "offline-start-url",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "`start_url` does not respond with a 200 when offline",
+    "auditDocumentationLink": "https://web.dev/offline-start-url"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "service-worker",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Does not register a service worker that controls page and `start_url`",
+    "auditDocumentationLink": "https://web.dev/service-worker"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "splash-screen",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Is not configured for a custom splash screen",
+    "auditDocumentationLink": "https://web.dev/splash-screen"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "themed-omnibox",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Does not set a theme color for the address bar.",
+    "auditDocumentationLink": "https://web.dev/themed-omnibox"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "works-offline",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "Current page does not respond with a 200 when offline",
+    "auditDocumentationLink": "https://web.dev/works-offline"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "bypass",
+    "level": "error",
+    "url": "http://localhost:3000/index2?a=b",
+    "auditTitle": "The page does not contain a heading, skip link, or landmark region",
+    "auditDocumentationLink": "https://web.dev/bypass/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.3,
+    "values": [
+      0.3,
+      0.3,
+      0.29
+    ],
+    "operator": ">=",
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1,
+      1,
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-css",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Minify CSS",
+    "auditDocumentationLink": "https://web.dev/unminified-css"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4,
+      4,
+      4
+    ],
+    "operator": "<=",
+    "auditId": "unminified-javascript",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Minify JavaScript",
+    "auditDocumentationLink": "https://web.dev/unminified-javascript"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1,
+      1,
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unused-css-rules",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Remove unused CSS",
+    "auditDocumentationLink": "https://web.dev/unused-css-rules"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 7,
+    "values": [
+      7,
+      7,
+      7
+    ],
+    "operator": "<=",
+    "auditId": "uses-text-compression",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Enable text compression",
+    "auditDocumentationLink": "https://web.dev/uses-text-compression"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 6,
+    "values": [
+      6,
+      6,
+      6
+    ],
+    "operator": "<=",
+    "auditId": "uses-long-cache-ttl",
+    "level": "warn",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Serve static assets with an efficient cache policy",
+    "auditDocumentationLink": "https://web.dev/uses-long-cache-ttl"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "redirects-http",
+    "level": "warn",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Does not redirect HTTP traffic to HTTPS",
+    "auditDocumentationLink": "https://web.dev/redirects-http"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "uses-http2",
+    "level": "warn",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Does not use HTTP/2 for all of its resources",
+    "auditDocumentationLink": "https://web.dev/uses-http2"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "html-has-lang",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "`<html>` element does not have a `[lang]` attribute",
+    "auditDocumentationLink": "https://web.dev/html-has-lang/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "installable-manifest",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Web app manifest does not meet the installability requirements",
+    "auditDocumentationLink": "https://web.dev/installable-manifest"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "link-text",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Links do not have descriptive text",
+    "auditDocumentationLink": "https://web.dev/link-text"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "offline-start-url",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "`start_url` does not respond with a 200 when offline",
+    "auditDocumentationLink": "https://web.dev/offline-start-url"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "service-worker",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Does not register a service worker that controls page and `start_url`",
+    "auditDocumentationLink": "https://web.dev/service-worker"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "splash-screen",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Is not configured for a custom splash screen",
+    "auditDocumentationLink": "https://web.dev/splash-screen"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "themed-omnibox",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Does not set a theme color for the address bar.",
+    "auditDocumentationLink": "https://web.dev/themed-omnibox"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "works-offline",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "Current page does not respond with a 200 when offline",
+    "auditDocumentationLink": "https://web.dev/works-offline"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "auditId": "bypass",
+    "level": "error",
+    "url": "http://localhost:3000/index3?t=1",
+    "auditTitle": "The page does not contain a heading, skip link, or landmark region",
+    "auditDocumentationLink": "https://web.dev/bypass/"
+  }
+]

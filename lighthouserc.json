@@ -1,0 +1,22 @@
+{
+  "ci": {
+    "collect": {
+      "url": [
+        "http://localhost:3000/",
+        "http://localhost:3000/index2?a=b",
+        "http://localhost:3000/index3?t=1"
+      ],
+      "numberOfRuns": 3
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+      }
+    },
+    "upload": {
+      "target": "lhci",
+      "serverBaseUrl": "http://localhost:9001/",
+      "token": "3cf9dd88-a048-4e9f-bd1f-8e2b1375ed14"
+    }
+  }
+}
