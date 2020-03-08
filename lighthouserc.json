@@ -17,7 +17,7 @@
       "target": "lhci",
       "serverBaseUrl": "http://localhost:9001/",
       "token": "3cf9dd88-a048-4e9f-bd1f-8e2b1375ed14"
-      "urlReplacementPatterns" [
+      "urlReplacementPatterns": [
          "/\?.*/d"
       ]
     }
